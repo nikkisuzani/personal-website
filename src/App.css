@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+}
+
+.nav-bar {
+  text-align: left;
+  padding-top: 48px;
+}
+.nav-bar a {
+  color: purple;
+  font-size: 12pt;
+  margin-left: 36px;
+  font-family: 'Lemon';
+  text-decoration: none;
+  color:rgb(97, 97, 180);
+}
+
+.name {
+  font-size: 20pt;
+  font-family: 'Lemon';
+  text-align: center;
+  color:rgb(97, 97, 180)
+}
+
+hr {
+  width: 30%;
+  margin-left: 0vh;
+  height: 150%;
+  border-color: rgb(180, 81, 169);
+}
+
+.bodytext {
+  margin-left: 10vh;
+  margin-top: 2vh;
+  color: rgb(180, 81, 169);
+  margin-right: 50%;
+}
+.one {
+  margin-top: 10vh;
+  font-family: 'Lemon';
+  font-size: 10pt;
+  margin-right: 50vw;
+}
+
+.all-text {
+  font-size: 10pt;
+}
+.box-container {
+  display: flex;
+  justify-content: center;
+}
+
+.box1 {
+  height: 5vh;
+  width: 5vh;
+  margin-right: 2vh; 
+  margin-top: 2vh;
+  background-image: url(./icons8-instagram.svg);
+  background-size: 5vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.box2 {
+  height: 5vh;
+  width: 5vh;
+  margin-right: 2vh; 
+  margin-top: 2vh;
+  background-image: url(./icons8-facebook-64.png);
+  background-size: 5vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.box3 {
+  height: 5vh;
+  width: 5vh;
+  margin-right: 2vh; 
+  margin-top: 2vh;
+  background-image: url(./icons8-linkedin.svg);
+  background-size: 5vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.about-me {
+  margin-left: 10vh;
+  margin-top: 2vh;
+  font-size: 18pt;
+  color: rgb(97, 97, 180);
+}
+
+.my-current-projects {
+  margin-left: 10vh;
+  margin-top: 2vh;
+  font-size: 18pt;
+  color: rgb(97, 97, 180);
+}
+
+.ellipse {
+  margin-top: -2vh;
+  width: 15vh;
+  height: 15vh;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: 2px solid;
+  border-color: rgb(97, 97, 180);
+  background-image: url(./IMG_4676.JPG);
+  background-size: 20vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
