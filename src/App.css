@@ -305,4 +305,20 @@ hr {
   #main {
     flex-direction: column;
   }
+
+  .about-me {
+    margin-left: 0vh;
+  }
+
+  .my-current-projects {
+    margin-left: 0vh;
+  }
+
+  .my-future-plans {
+    margin-left: 0vh;
+  }
+
+  .bodytext {
+    margin-left: 0vh;
+  }
 }
