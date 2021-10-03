@@ -11,6 +11,8 @@ const App = () => {
             <a href="#my-current-projects"> projects </a>
             <a href="#my-future-plans"> plans </a>
           </div>
+          <div id = "main">
+            <div id = "main2">
           <div className="one">
             <p className = "name"> hi, i'm nikki! </p>
             <div className = "ellipse"> </div>
@@ -35,6 +37,7 @@ const App = () => {
             <div className = "my-future-plans" id="my-future-plans"> my future plans! <hr></hr> </div>
             <p className = "bodytext"> I'm really interested in finding new ways to use technology to help people, whether that's exploring bioinformatics, working on putting tech into the healthcare sector, data journalism, or just working for a company with community-focused values :) If any of that is important to you, feel free to reach out so we can talk about navigating the CS landscape with social good in mind! </p>
           </div>
+          </div>
           <div className="sidebar"> 
             <div className = "sidebar-text"> My life in photos!
             </div> 
@@ -54,6 +57,7 @@ const App = () => {
                 <div className="newbox8"></div>
                 <div className="newbox9"></div>
               </div> 
+            </div>
             </div>
           </div>
   );

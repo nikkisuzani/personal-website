@@ -2,6 +2,20 @@
   text-align: center;
 }
 
+#main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#main2 {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
 .nav-bar {
   text-align: left;
   padding-top: 48px;
@@ -31,15 +45,16 @@ hr {
 
 .bodytext {
   margin-left: 10vh;
+  margin-right: 20%;
   margin-top: 2vh;
   color: rgb(180, 81, 169);
-  margin-right: 55%;
 }
 .one {
   margin-top: 10vh;
   font-family: 'Lemon';
   font-size: 10pt;
-  margin-right: 50vw;
+  position: relative;
+  right: 5vw;
 }
 
 .all-text {
@@ -53,10 +68,11 @@ hr {
 .sidebar {
   height: 80vh;
   width: 80vh;
-  margin-top: -80vh;
-  margin-left: 50%;
   border: 2px solid rgb(97, 97, 180);
   margin-bottom: 2vh;
+  position: relative;
+  right: 5vw;
+  top: 3vw;
 }
 
 .sidebar-text {
@@ -282,5 +298,11 @@ hr {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1080px) {
+  #main {
+    flex-direction: column;
   }
 }
